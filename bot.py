@@ -24,8 +24,8 @@ def on_chat_message(msg):
     with open('./yesterday.json') as json_data:
         Yesterday = json.load(json_data)
         json_data.close()
-    with open('./tommorrow.json') as json_data:
-        Tommorrow = json.load(json_data)
+    with open('./tomorrow.json') as json_data:
+        Tomorrow = json.load(json_data)
         json_data.close()
 
     k=''
@@ -39,8 +39,8 @@ def on_chat_message(msg):
         nextmeal=Today["dinner"]
         reply1="Today's dinner:\n"
     if(ti.hour>20 and ti.minute>30):
-        nextmeal=Tommorrow["breakfast"]
-        reply1="Tommorrow's Breakfast:\n"
+        nextmeal=Tomorrow["breakfast"]
+        reply1="Tomorrow's Breakfast:\n"
 
     t=msg['text']
 
@@ -56,9 +56,9 @@ def on_chat_message(msg):
         k=json.dumps(Yesterday,indent=0)
         reply+="Yesterday's menu- \n"
 
-    elif(t=="/tommorrow"):
-        k=json.dumps(Tommorrow,indent=0)
-        reply+="Tommorrow's menu:\n"
+    elif(t=="/tomorrow"):
+        k=json.dumps(Tomorrow,indent=0)
+        reply+="Tomorrow's menu:\n"
 
     else:
         reply="invalid command"
