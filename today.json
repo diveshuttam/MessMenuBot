@@ -1,4 +1,5 @@
 {
-  "dinner":["roti","sabzi"],
-  "breakfast":["roti","sabzi"]
+  "breakfast":["roti","sabzi"],
+  "lunch":["roti","sabzi"],
+  "dinner":["roti","sabzi"]
 }
