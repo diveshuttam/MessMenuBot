@@ -3,10 +3,10 @@ a telegram bot for displaying mess menu
 
 
 ### requirements:
-  telepot
+  [telepot](http://telepot.readthedocs.io/en/latest/)
   
 ### run:
-  python3 bot1.py <token>
+  python3 bot.py token  
   replace token by the token string that you get from bot father
   
 ### availible commands:
