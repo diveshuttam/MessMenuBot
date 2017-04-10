@@ -1,0 +1,82 @@
+import sys
+import time
+import datetime
+import telepot
+import pprint
+import json
+
+pp = pprint.PrettyPrinter(indent=4)
+
+def on_chat_message(msg):
+    content_type, chat_type, chat_id = telepot.glance(msg)
+    # pp.pprint(msg)
+    print(telepot.glance(msg))
+
+    dt=datetime.datetime.fromtimestamp(msg["date"])
+    ti=dt.time()
+    print(ti)
+
+    reply=dt.strftime("Today is %A, %d %B %Y\n\n")
+
+    with open('./today.json') as json_data:
+        Today = json.load(json_data)
+        json_data.close()
+    with open('./yesterday.json') as json_data:
+        Yesterday = json.load(json_data)
+        json_data.close()
+    with open('./tommorrow.json') as json_data:
+        Tommorrow = json.load(json_data)
+        json_data.close()
+
+    k=''
+
+    nextmeal=Today["breakfast"]
+    reply1="Today's Breakfast:\n"
+    if(ti.hour>9 and ti.minute>30):
+        nextmeal=Today["lunch"]
+        reply1="Today's lunch:\n"
+    if(ti.hour>13 and ti.minute>30):
+        nextmeal=Today["dinner"]
+        reply1="Today's dinner:\n"
+    if(ti.hour>20 and ti.minute>30):
+        nextmeal=Tommorrow["breakfast"]
+        reply1="Tommorrow's Breakfast:\n"
+
+    t=msg['text']
+
+    if(t=="/whatscooking"):
+        k=json.dumps(nextmeal);
+        reply+=reply1
+
+    elif(t=="/today"):
+        k=json.dumps(Today,indent=0)
+        reply+="Today's menu-\n"
+
+    elif(t=="/yesterday"):
+        k=json.dumps(Yesterday,indent=0)
+        reply+="Yesterday's menu- \n"
+
+    elif(t=="/tommorrow"):
+        k=json.dumps(Tommorrow,indent=0)
+        reply+="Tommorrow's menu:\n"
+
+    else:
+        reply="invalid command"
+
+    k=k.replace('{','')
+    k=k.replace('}','')
+    k=k.replace('"','')
+    k=k.replace('[','')
+    k=k.replace(']','')
+    k=k.replace(',','\t')
+    reply+=k
+    bot.sendMessage(chat_id,reply)
+
+TOKEN = sys.argv[1]  # get token from command-line
+
+bot = telepot.Bot(TOKEN)
+bot.message_loop({'chat': on_chat_message})
+print('Listening ...')
+
+while 1:
+    time.sleep(10)
