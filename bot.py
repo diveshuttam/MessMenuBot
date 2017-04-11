@@ -70,6 +70,8 @@ def on_chat_message(msg):
     k=k.replace(']','')
     k=k.replace(',','\t')
     reply+=k
+    if(t=="/start"):
+	reply="Hi! So let us see what is being cooked.\n Type or Click / to see list of commands"
     bot.sendMessage(chat_id,reply)
 
 TOKEN = sys.argv[1]  # get token from command-line
