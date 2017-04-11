@@ -1,1 +1,1 @@
-worker: python3 bot.py TOKEN
+web: python3 bot.py TOKEN
