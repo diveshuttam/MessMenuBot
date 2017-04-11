@@ -27,7 +27,7 @@ def on_chat_message(msg):
         dt=datetime.datetime.fromtimestamp(msg["date"],tz=gmt5)
         #dt=dt.astimezone()
         ti=dt.time()
-        print(msg["date"])
+        #print(msg["date"])
         print(ti)
 
         reply=dt.strftime("Today is %A, %d %B %Y\n\n")
