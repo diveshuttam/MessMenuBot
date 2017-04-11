@@ -5,6 +5,16 @@ import telepot
 import pprint
 import json
 
+class GMT5(datetime.tzinfo): 
+    def utcoffset(self,dt):
+        return datetime.timedelta(hours=5,minutes=30)
+    def tzname(self,dt):
+        return "GMT +5:30 (IST)"
+    def dst(self,dt):
+        return datetime.timedelta(0)
+
+gmt5 = GMT5()
+
 pp = pprint.PrettyPrinter(indent=4)
 
 def on_chat_message(msg):
@@ -14,7 +24,8 @@ def on_chat_message(msg):
     if(content_type!="text"):
             reply='Sorry, But, I only accept text :-(\nType or Click "/ " to see availible commands'
     else:
-        dt=datetime.datetime.fromtimestamp(msg["date"])
+        dt=datetime.datetime.fromtimestamp(msg["date"],tz=gmt5)
+        #dt=dt.astimezone()
         ti=dt.time()
         print(msg["date"])
         print(ti)
