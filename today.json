@@ -1,5 +1,5 @@
 {
-  "breakfast":["roti","sabzi"],
-  "lunch":["roti","sabzi"],
-  "dinner":["roti","sabzi"]
+  "breakfast":["idli","sambhar/chutney","tea/coffee","slice bread","eggs"],
+  "lunch":["kadhi pakoda","Cube Aloo","Steam Rice","P/B Chapati","Pumpkin Sambhar","Roasted Papad","chilli pickle" ],
+  "dinner":["Black  chana Tariwala","Lasooni masoor Dal","P/B chapati","Tomato Rasam","Steam Rice","Carrot", "onion salad"]
 }

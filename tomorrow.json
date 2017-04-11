@@ -1,4 +1,5 @@
 {
-  "dinner":["roti","sabzi"],
-  "breakfast":["roti","sabzi"]
+  "breakfast":["Cornflakes","Aloo Bonda","T. ketchup/Mint sauce","Chopped onion","tomato","lemon","Tea/Coffee","Slice Bread","Daliya","eggs"],
+  "lunch":["Paneer Do pyaza","Spring Onion Rice (Plain Rice)","Mix veg Paratha","Mint Raita","Corn Potato kebab","Tomato ketchup","Mix pickle","Hot Badam Milk"],
+  "dinner": ["Palak corn","Dal Rajma","steam Rice","tomato Rasam","P/B Chapati","Carrot, Radish salad","Mango Pickle","Jelabi - MB"]
 }
