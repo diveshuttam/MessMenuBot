@@ -72,32 +72,32 @@ def on_chat_message(msg):
 
         if(t=="/whatscooking"):
             nextmeal=Today["breakfast"]
-            reply1="Today's Breakfast:\n"
+            reply1="Today's Breakfast:"
             if(ti.hour==9 and ti.minute>30 or ti.hour>9):
                 nextmeal=Today["lunch"]
-                reply1="Today's lunch:\n"
+                reply1="Today's lunch:"
             if(ti.hour==13 and ti.minute>30 or ti.hour>13):
                 nextmeal=Today["dinner"]
-                reply1="Today's dinner:\n"
+                reply1="Today's dinner:"
             if(ti.hour==20 and ti.minute>30 or ti.hour>20):
                 nextmeal=Tomorrow["breakfast"]
                 reply=dt_tom.strftime("Tomorrow is %A, %d %b %Y\n\n")
-                reply1="Tomorrow's Breakfast:\n"
+                reply1="Tomorrow's Breakfast:"
             k=json.dumps(nextmeal,indent=0);
             reply+=reply1
 
         elif(t=="/today"):
-            k=json.dumps(Today,indent=0)
+            k="\nBreakfast:"+json.dumps(Today["breakfast"],indent=0)+"\nLunch:"+json.dumps(Today["lunch"],indent=0)+"\nDinner:"+json.dumps(Today["dinner"],indent=0)
             reply+="Today's menu-\n"
 
         elif(t=="/yesterday"):
             reply=dt_yes.strftime("Yesterday was %A, %d %b %Y\n\n")
-            k=json.dumps(Yesterday,indent=0)
+            k="\nBreakfast:"+json.dumps(Yesterday["breakfast"],indent=0)+"\nLunch:"+json.dumps(Yesterday["lunch"],indent=0)+"\nDinner:"+json.dumps(Yesterday["dinner"],indent=0)
             reply+="Yesterday's menu- \n"
 
         elif(t=="/tomorrow"):
             reply=dt_tom.strftime("Tomorrow is %A, %d %b %Y\n\n")
-            k=json.dumps(Tomorrow,indent=0)
+            k=k="\nBreakfast:"+json.dumps(Tomorrow["breakfast"],indent=0)+"\nLunch:"+json.dumps(Tomorrow["lunch"],indent=0)+"\nDinner:"+json.dumps(Tomorrow["dinner"],indent=0)
             reply+="Tomorrow's menu:\n"
 
         else:
