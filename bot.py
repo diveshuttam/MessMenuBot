@@ -24,12 +24,15 @@ dt_yes=None
 dt_tom=None
 
 def on_chat_message(msg):
+    print("\n")
     content_type, chat_type, chat_id = telepot.glance(msg)
-    # pp.pprint(msg)
-    print(telepot.glance(msg))
+    pp.pprint(msg["from"])
+    # print(telepot.glance(msg))
     if(content_type!="text"):
+            print(content_type)
             reply='Sorry, But, I only accept text :-(\nType or Click "/ " to see availible commands'
     else:
+        pp.pprint(msg["text"])
         global dt
         global dt_yes
         global dt_tom
