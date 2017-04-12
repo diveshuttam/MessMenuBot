@@ -46,13 +46,13 @@ def on_chat_message(msg):
 
         nextmeal=Today["breakfast"]
         reply1="Today's Breakfast:\n"
-        if(ti.hour>=9 and ti.minute>30):
+        if(ti.hour==9 and ti.minute>30 || ti.hour>9):
             nextmeal=Today["lunch"]
             reply1="Today's lunch:\n"
-        if(ti.hour>=13 and ti.minute>30):
+        if(ti.hour==13 and ti.minute>30 || ti.hour>13):
             nextmeal=Today["dinner"]
             reply1="Today's dinner:\n"
-        if(ti.hour>=20 and ti.minute>30):
+        if(ti.hour==20 and ti.minute>30 || ti.hour>9):
             nextmeal=Tomorrow["breakfast"]
             reply1="Tomorrow's Breakfast:\n"
 
