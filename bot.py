@@ -52,7 +52,7 @@ def on_chat_message(msg):
         if(ti.hour==13 and ti.minute>30 || ti.hour>13):
             nextmeal=Today["dinner"]
             reply1="Today's dinner:\n"
-        if(ti.hour==20 and ti.minute>30 || ti.hour>9):
+        if(ti.hour==20 and ti.minute>30 || ti.hour>20):
             nextmeal=Tomorrow["breakfast"]
             reply1="Tomorrow's Breakfast:\n"
 
