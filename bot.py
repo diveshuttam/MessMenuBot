@@ -83,7 +83,7 @@ def on_chat_message(msg):
                 nextmeal=Tomorrow["breakfast"]
                 reply=dt_tom.strftime("Tomorrow is %A, %d %b %Y\n\n")
                 reply1="Tomorrow's Breakfast:\n"
-            k=json.dumps(nextmeal);
+            k=json.dumps(nextmeal,indent=0);
             reply+=reply1
 
         elif(t=="/today"):
