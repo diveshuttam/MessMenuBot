@@ -65,23 +65,21 @@ def on_chat_message(msg):
                 json_data.close()
         prdt=dt
         k=''
-
-        nextmeal=Today["breakfast"]
-        reply1="Today's Breakfast:\n"
-        if(ti.hour==9 and ti.minute>30 or ti.hour>9):
-            nextmeal=Today["lunch"]
-            reply1="Today's lunch:\n"
-        if(ti.hour==13 and ti.minute>30 or ti.hour>13):
-            nextmeal=Today["dinner"]
-            reply1="Today's dinner:\n"
-        if(ti.hour==20 and ti.minute>30 or ti.hour>20):
-            nextmeal=Tomorrow["breakfast"]
-            reply=dt_tom.strftime("Tomorrow is %A, %d %b %Y\n\n")
-            reply1="Tomorrow's Breakfast:\n"
-
         t=msg['text']
 
         if(t=="/whatscooking"):
+            nextmeal=Today["breakfast"]
+            reply1="Today's Breakfast:\n"
+            if(ti.hour==9 and ti.minute>30 or ti.hour>9):
+                nextmeal=Today["lunch"]
+                reply1="Today's lunch:\n"
+            if(ti.hour==13 and ti.minute>30 or ti.hour>13):
+                nextmeal=Today["dinner"]
+                reply1="Today's dinner:\n"
+            if(ti.hour==20 and ti.minute>30 or ti.hour>20):
+                nextmeal=Tomorrow["breakfast"]
+                reply=dt_tom.strftime("Tomorrow is %A, %d %b %Y\n\n")
+                reply1="Tomorrow's Breakfast:\n"
             k=json.dumps(nextmeal);
             reply+=reply1
 
