@@ -101,7 +101,7 @@ def on_chat_message(msg):
             reply+="Tomorrow's menu:\n"
 
         else:
-            reply='Sorry :-( That'+"'s "+ 'Greek to me :-(\nType or Click "/ " to see availible commands'
+            reply='Sorry :-( That'+"'s "+ 'Greek to me.\nType or Click "/ " to see availible commands'
 
         k=k.replace('{','')
         k=k.replace('}','')
