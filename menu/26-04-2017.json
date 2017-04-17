@@ -1,5 +1,32 @@
 {
-  "dinner":["menu not updated yet"],
-  "lunch":["menu not updated yet"],
-  "breakfast":["menu Not Updated yet"]
+  "breakfast": [
+    "Cornflakes",
+    "Medu wada",
+    "Sambar /Chutney",
+    "Tea/Coffee",
+    "Slice Bread",
+    "Jam",
+    "Eggs to Order"
+  ],
+  "dinner": [
+    "Chilly Potato",
+    "Black Masoor dal",
+    "Veg fried rice",
+    "P/B chapati",
+    "Tomato Rasam",
+    "Cucumber, Onion Salad",
+    "Lemon Pickle",
+    "Veg Fried Rice/ Live Egg Counter",
+    "chicken curry"
+  ],
+  "lunch": [
+    "Amritsari chole",
+    "Bhatura",
+    "Steam Rice",
+    "Choped onion , Lemon",
+    "Tomato Rasam",
+    "Mix pickle",
+    "chocolate chip I/C",
+    "Veg Fried Rice"
+  ]
 }

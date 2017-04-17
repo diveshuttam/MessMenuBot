@@ -1,6 +1,31 @@
 {
-  "dinner":["Chole","Puri","TomatoRasam","Steam Rice","Choped, Onion ,Lemon","Mango Pickle"
-],
-  "lunch":["Mirch ka salan","Dal Makhani","Veg Briyani (Special rice)","P/B chapati","Pumpkin Sambhar","Onion,Tomato salad","Mango pickle","Shikanji"],
-  "breakfast":["Cornflakes","Bread roll","Tomato ketchup","Tea/Coffee","Slice Bread","Jam","Daliya"]
+  "breakfast": [
+    "Cornflakes",
+    "Bread roll",
+    "Tomato ketchup",
+    "Tea/Coffee",
+    "Slice Bread",
+    "Jam",
+    "Daliya"
+  ],
+  "dinner": [
+    "Chole",
+    "Puri",
+    "TomatoRasam",
+    "Steam Rice",
+    "Choped, Onion ,Lemon ,",
+    "Mango Pickle",
+    "Veg Fried Rice"
+  ],
+  "lunch": [
+    "Mirch ka salan",
+    "Dal Makhani",
+    "Veg Briyani (Special rice)",
+    "P/B chapati",
+    "Pumpkin Sambhar",
+    "Onion,Tomato salad",
+    "Mango pickle",
+    "Shikanji",
+    "Egg Curry & Egg Fried Rice Live counter"
+  ]
 }

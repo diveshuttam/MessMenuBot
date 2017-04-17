@@ -1,5 +1,34 @@
 {
-  "dinner":["menu not updated yet"],
-  "lunch":["menu not updated yet"],
-  "breakfast":["menu Not Updated yet"]
+  "breakfast": [
+    "Cornflakes",
+    "Aloo Tikki S/W",
+    "Tomato ketchup",
+    "Tea/Coffee",
+    "Slice Bread",
+    "Jam",
+    "Daliya",
+    "Eggs to Order"
+  ],
+  "dinner": [
+    "Desi Style Aloo Matar",
+    "Dal Kumawani",
+    "P/B chapati",
+    "Roasted Garlic Rasam",
+    "steam rice",
+    "Bhel Puri",
+    "Lemon Pickle",
+    "Veg Fried Rice/ Live Egg Counter",
+    "Kadhai Chicken"
+  ],
+  "lunch": [
+    "Pyaz Tomato subji",
+    "Mix veg Paratha",
+    "Steamed  Rice",
+    "plain curd",
+    "Pumpkin Sambar",
+    "Butter",
+    "Lacha Onion",
+    "Mango Pickle",
+    "Egg Curry & Egg Fried Rice Live counter"
+  ]
 }

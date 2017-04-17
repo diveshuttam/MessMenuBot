@@ -1,5 +1,33 @@
 {
-  "dinner":["menu not updated yet"],
-  "lunch":["menu not updated yet"],
-  "breakfast":["menu Not Updated yet"]
+  "breakfast": [
+    "Cornflakes",
+    "Puri",
+    "Bhaji",
+    "Tea/Coffee",
+    "Slice Bread",
+    "Jam",
+    "Eggs to Order"
+  ],
+  "dinner": [
+    "Baingon Ka salan",
+    "Punjabi Lobiya",
+    "P/B chapati",
+    "Curd rice",
+    "Steam rice",
+    "Tomato rasam",
+    "Mix Pickle",
+    "Veg Fried Rice/ Live Egg Counter",
+    "Chicken Masala"
+  ],
+  "lunch": [
+    "Aloo Mangodi",
+    "Dal Lahasooni",
+    "Steam Rice",
+    "P/B Chapati",
+    "Pumpkin Sambhar",
+    "Cucumber, onion Salad",
+    "Mango Pickle",
+    "Cold Badam Milk",
+    "Egg Curry & Egg Fried Rice Live counter"
+  ]
 }
