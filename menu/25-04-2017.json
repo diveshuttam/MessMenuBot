@@ -1,5 +1,31 @@
 {
-  "dinner":["menu not updated yet"],
-  "lunch":["menu not updated yet"],
-  "breakfast":["menu Not Updated yet"]
+  "breakfast": [
+    "Cornflakes",
+    "Vada Pao",
+    "Green chutney",
+    "Tea/Coffee",
+    "Slice Bread",
+    "Jam"
+  ],
+  "dinner": [
+    "Paneer Palak",
+    "P/B chapati",
+    "Onion Rice",
+    "Tomato Sambar",
+    "Cucumber, onion Salad",
+    "Mix pickle",
+    "Veg Fried Rice"
+  ],
+  "lunch": [
+    "Kadhai Vegetables",
+    "Dal Makhani",
+    "Steam Rice",
+    "P/B chapati",
+    "Pineapple Raita",
+    "Onion Sambar",
+    "Cucumber, Onion salad",
+    "Chilly Pickle",
+    "Aam Panna",
+    "Egg Curry & Egg Fried Rice Live counter"
+  ]
 }

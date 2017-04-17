@@ -1,5 +1,34 @@
 {
-  "dinner":["menu not updated yet"],
-  "lunch":["menu not updated yet"],
-  "breakfast":["menu Not Updated yet"]
+  "breakfast": [
+    "Cornflakes",
+    "Masala Dosa",
+    "Sambar /Chutney",
+    "Tea/Coffee",
+    "Slice Bread",
+    "Jam",
+    "Eggs to Order"
+  ],
+  "dinner": [
+    "Cabbage Matar",
+    "Dal Dhaba",
+    "Tomato Rasam",
+    "Steam Rice",
+    "P/B Chapati",
+    "Cucumber, onion Salad",
+    "Mango Pickle",
+    "chocolate Barfi",
+    "Veg Fried Rice/ Live Egg Counter",
+    "Chicken briyani"
+  ],
+  "lunch": [
+    "Stuffed Tomato",
+    "Dal Malka Black",
+    "Onion Rice",
+    "Onion Mint Paratha",
+    "Maddur vada",
+    "Onion Salad",
+    "Mix pickle",
+    "Sweet Lassi",
+    "Egg Curry & Egg Fried Rice Live counter"
+  ]
 }

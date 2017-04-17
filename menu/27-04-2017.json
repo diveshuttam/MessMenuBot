@@ -1,5 +1,34 @@
 {
-  "dinner":["menu not updated yet"],
-  "lunch":["menu not updated yet"],
-  "breakfast":["menu Not Updated yet"]
+  "breakfast": [
+    "Cornflakes",
+    "Spinach corn S/W",
+    "Tomato ketchup",
+    "Tea/Coffee",
+    "Slice Bread",
+    "Jam",
+    "Daliya",
+    "Eggs to Order"
+  ],
+  "dinner": [
+    "Bhendi Achari",
+    "Masoor Dal",
+    "Tomato Rasam",
+    "Steam rice",
+    "P/B Chapati",
+    "Onion Salad",
+    "Lemon Pickle",
+    "Veg Fried Rice/ Live Egg Counter",
+    "Chicken chettinad"
+  ],
+  "lunch": [
+    "Pakora kadhi",
+    "Madrasi Aloo",
+    "P/B chapati",
+    "Steam Rice",
+    "Onion Sambar",
+    "Roasted Papad",
+    "Chilly Pickle",
+    "Black current I/C",
+    "Egg Curry & Egg Fried Rice Live counter"
+  ]
 }

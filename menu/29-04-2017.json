@@ -1,5 +1,36 @@
 {
-  "dinner":["menu not updated yet"],
-  "lunch":["menu not updated yet"],
-  "breakfast":["menu Not Updated yet"]
+  "breakfast": [
+    "Cornflakes",
+    "Tawa Grilled S/W",
+    "Tomato Ketchup",
+    "Tea/Coffee",
+    "Slice Bread",
+    "Jam",
+    "Daliya",
+    "Eggs to Order"
+  ],
+  "dinner": [
+    "Aloo Beans",
+    "Dal Panchratan",
+    "P/B Chapti",
+    "Dal Rasam",
+    "Steam Rice",
+    "Onion Salad",
+    "Lemon Pickle",
+    "Mohan Thal",
+    "Veg Fried Rice/ Live Egg Counter",
+    "Kadhai Chicken"
+  ],
+  "lunch": [
+    "Black chana Tariwala",
+    "Ajwayani Tikona Paratha",
+    "Steam rice",
+    "Butter",
+    "Plain Curd",
+    "Branjal sambar",
+    "Lacha Onion",
+    "Mix pickle",
+    "Khus sarbat",
+    "Egg Curry & Egg Fried Rice Live counter"
+  ]
 }

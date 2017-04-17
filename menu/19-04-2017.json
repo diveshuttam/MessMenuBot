@@ -1,6 +1,32 @@
 {
-  "dinner":["Soya Palak","Dal Mix","Lemon rice","Tomato Rasam","P/B chapati","Cucumber, onion Salad","Mango Pickle"],
-  "lunch":["Paneer Matar","P/B chapati","steam Rice","Boondi Raita","Brinjal sambar","Green salad","Mix Pickle","Chaach" 
-],
-  "breakfast":["Cornflakes","Masala Idli","Sambar /Chutney","Tea/Coffee","Slice Bread","Jam"]
+  "breakfast": [
+    "Cornflakes",
+    "Masala Idli",
+    "Sambar /Chutney",
+    "Tea/Coffee",
+    "Slice Bread",
+    "Jam",
+    "Eggs to Order"
+  ],
+  "dinner": [
+    "Bhindi Masala",
+    "Dal Red Masoor",
+    "Tomato Rasam",
+    "Steam Rice",
+    "P/B Chapati",
+    "Cucumber,onion salad",
+    "Chilli Pickle",
+    "Veg Fried Rice/ Live Egg Counter",
+    "Chicken Curry"
+  ],
+  "lunch": [
+    "Paneer Matar",
+    "P/B chapati",
+    "steam Rice",
+    "Boondi Raita",
+    "Brinjal sambar",
+    "Green salad",
+    "Mix Pickle",
+    "Veg Fried Rice"
+  ]
 }

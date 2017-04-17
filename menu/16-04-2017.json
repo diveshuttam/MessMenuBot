@@ -1,5 +1,32 @@
 {
-  "dinner":["Soya Palak","Dal Mix","Lemon rice","Tomato Rasam","P/B chapati","Cucumber, onion Salad","Mango Pickle"],
-  "lunch":["Paneer Handi","Tikona Ajwayani Paratha","Veg Briyani","Mix veg Raita","Potato wedges","Lacha Onion","Mix Pickle"],
-  "breakfast":["Cornflakes","Masala Dosa","Sambar /Chutney","Tea/Coffee","Slice Bread","Jam","Eggs to Order"]
+  "breakfast": [
+    "Cornflakes",
+    "Masala Dosa",
+    "Sambar /Chutney",
+    "Tea/Coffee",
+    "Slice Bread",
+    "Jam",
+    "Eggs to Order"
+  ],
+  "dinner": [
+    "Soya Palak",
+    "Dal Mix",
+    "Lemon rice",
+    "Tomato Rasam",
+    "P/B chapati",
+    "Cucumber, onion Salad",
+    "Mango Pickle",
+    "Egg Curry & Egg Fried Rice Live counter",
+    "Chicken Briyani"
+  ],
+  "lunch": [
+    "Paneer Handi",
+    "Tikona Ajwayani Paratha",
+    "Veg Briyani",
+    "Mix veg Raita",
+    "Potato wedges",
+    "Lacha Onion",
+    "Mix Pickle",
+    "Egg Curry & Egg Fried Rice Live counter"
+  ]
 }

@@ -1,5 +1,33 @@
 {
-  "dinner":["menu not updated yet"],
-  "lunch":["menu not updated yet"],
-  "breakfast":["menu Not Updated yet"]
+  "breakfast": [
+    "Cornflakes",
+    "Aloo Matar Paratha",
+    "Plain Curd",
+    "Tea/Coffee",
+    "Slice Bread",
+    "Jam",
+    "Eggs to Order"
+  ],
+  "dinner": [
+    "Black chana Masala",
+    "Monng Dal",
+    "Tomato Rasam",
+    "P/B chapati",
+    "Tamrind Rice",
+    "Cucumber, onion Salad",
+    "Mix Pickle",
+    "Veg Fried Rice/ Live Egg Counter",
+    "chicken Lababdar"
+  ],
+  "lunch": [
+    "Gatta Curry",
+    "Arahar dal",
+    "P/B Chapati",
+    "Steam rice",
+    "Lauky Sambar",
+    "Green salad",
+    "Mango Pickle",
+    "Shai Najarana I/C",
+    "Egg Curry & Egg Fried Rice Live counter"
+  ]
 }

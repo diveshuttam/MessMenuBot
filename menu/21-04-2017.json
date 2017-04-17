@@ -1,5 +1,33 @@
 {
-  "dinner":["menu not updated yet"],
-  "lunch":["menu not updated yet"],
-  "breakfast":["menu Not Updated yet"]
+  "breakfast": [
+    "Cornflakes",
+    "Onion Uttapam",
+    "Sambar /Chutney",
+    "Tea/Coffee",
+    "Slice Bread",
+    "Jam",
+    "Eggs to Order"
+  ],
+  "dinner": [
+    "Dry Arbi",
+    "Yellow Moong Dal",
+    "Dal Rasam",
+    "Steam rice",
+    "P/B Chapati",
+    "Cucumber, Onion Salad",
+    "Mix pickle",
+    "Veg Fried Rice/ Live Egg Counter",
+    "Chicken Masala"
+  ],
+  "lunch": [
+    "Banana Kofta curry",
+    "Lashuni Dal",
+    "Steam Rice",
+    "P/B Chapati",
+    "Lauky sambar",
+    "Cucumbar, onion Salad",
+    "Mix Pickle",
+    "Brownie with Ice cream",
+    "Egg Curry & Egg Fried Rice Live counter"
+  ]
 }
