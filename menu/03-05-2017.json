@@ -1,5 +1,32 @@
 {
-  "dinner":["Menu Not Updated Yet"],
-  "lunch":["Menu Not Updated Yet"],
-  "breakfast":["Menu Not Updated Yet"]
+  "breakfast": [
+    "Cornflakes",
+    "Suji Upma",
+    "Coconut chutney",
+    "Tea/Coffee",
+    "Slice Bread",
+    "Jam",
+    "Eggs to Order"
+  ],
+  "dinner": [
+    "Moong Mogar",
+    "Rajma",
+    "P/B chapati",
+    "TomatoRasam",
+    "Steam Rice",
+    "Onion, cucumber Salad",
+    "Mango Pickle",
+    "Veg Fried Rice/ Live Egg Counter",
+    "Chicken Curry"
+  ],
+  "lunch": [
+    "Paneer Handi",
+    "Onion Rice",
+    "P/B chapati",
+    "Pumpkin Sambar",
+    "Pineapple Raita",
+    "Onion Salad",
+    "Mix pickle",
+    "Egg Curry & Egg Fried Rice Live counter"
+  ]
 }
