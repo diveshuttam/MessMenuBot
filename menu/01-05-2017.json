@@ -1,5 +1,32 @@
 {
-  "dinner":["Menu Not Updated Yet"],
-  "lunch":["Menu Not Updated Yet"],
-  "breakfast":["Menu Not Updated Yet"]
+  "breakfast": [
+    "Cornflakes",
+    "Onion Uttapam",
+    "Sambar /Chutney",
+    "Tea/Coffee",
+    "Slice Bread",
+    "Jam",
+    "Eggs to Order"
+  ],
+  "dinner": [
+    "Aloo Soyabeen",
+    "Dal Arahar",
+    "Tamrind rice",
+    "Tomato Rasam",
+    "P/B chapati",
+    "Cucumber, onion Salad",
+    "Egg Curry & Egg Fried Rice Live counter",
+    "Chicken Lababdar"
+  ],
+  "lunch": [
+    "Dum Aloo",
+    "Dal Panchratan",
+    "Steam Rice",
+    "P/B chapati",
+    "Lauky Sambar",
+    "Cucumber Salad",
+    "Mix Pickle",
+    "Cold chocolate Milk",
+    "Egg Curry & Egg Fried Rice Live counter"
+  ]
 }

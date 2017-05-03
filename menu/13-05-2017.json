@@ -1,0 +1,33 @@
+{
+  "breakfast": [
+    "Cornflakes",
+    "Bread roll",
+    "Tomato ketchup",
+    "Tea/Coffee",
+    "Slice Bread",
+    "Jam",
+    "Eggs to Order"
+  ],
+  "dinner": [
+    "Bhendi Masala",
+    "Moong Dal",
+    "P/B chapati",
+    "Onion Rice",
+    "Tomato rasam",
+    "Onion Salad",
+    "Chocolate Barfi",
+    "Veg Fried Rice/ Live Egg Counter",
+    "Kadhai chicken"
+  ],
+  "lunch": [
+    "Pyaaz tomato ka subji",
+    "Mix veg Paratha",
+    "Steam Rice",
+    "Butter",
+    "Plain Curd",
+    "Pumpkin Sambhar",
+    "Onion Salad",
+    "Mango Pickle",
+    "Egg Curry & Egg Fried Rice Live counter"
+  ]
+}

@@ -1,6 +1,7 @@
 {
   "breakfast": [
-    "Aloo Bonda",
+    "Cornflakes",
+    "Veg cutlets",
     "Tomato ketchup",
     "Tea/Coffee",
     "Slice Bread",
@@ -9,25 +10,25 @@
     "Eggs to Order"
   ],
   "dinner": [
-    "Achari Bhendi",
-    "Punjabi Lobiya",
-    "Dal Rasam",
+    "Sev Tomato",
+    "Mix dal",
     "Steam rice",
-    "P/B Chapati",
-    "Cucumber,onion salad",
-    "Chilli Pickle",
+    "P/B chapati",
+    "Tomato Rasam",
+    "Cucumber, Onion Salad",
+    "Lemon Pickle",
     "Veg Fried Rice/ Live Egg Counter",
     "Chicken chettinad"
   ],
   "lunch": [
     "Pakora kadhi",
-    "Aloo Jeera",
-    "Katiyawadi khichdi",
-    "Mix veg sambar",
-    "Steam Rice",
+    "Madrasi Aloo",
     "P/B chapati",
+    "Steam Rice",
+    "Onion Sambar",
     "Roasted Papad",
-    "Butter Scotch I/C",
+    "Chilly Pickle",
+    "Cream & cookies I/C",
     "Egg Curry & Egg Fried Rice Live counter"
   ]
 }

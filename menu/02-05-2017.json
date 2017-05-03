@@ -1,5 +1,31 @@
 {
-  "dinner":["Menu Not Updated Yet"],
-  "lunch":["Menu Not Updated Yet"],
-  "breakfast":["Menu Not Updated Yet"]
+  "breakfast": [
+    "Cornflakes",
+    "Aloo Tikki S/W",
+    "Tomato ketchup",
+    "Tea/Coffee",
+    "Slice Bread",
+    "Jam",
+    "Daliya"
+  ],
+  "dinner": [
+    "Chole",
+    "Bhatura",
+    "Dal Rasam",
+    "Steam Rice",
+    "Choped, Onion ,Lemon ,",
+    "Mango Pickle",
+    "Veg Fried rice"
+  ],
+  "lunch": [
+    "Mirch ka salan",
+    "Mix Dal",
+    "Hyderabadi Briyani (sp. rice)",
+    "P/B chapati",
+    "Onion Sambar",
+    "Cucucmber, onion Salad",
+    "Chilly Pickle",
+    "Water Melon",
+    "Veg fried rice"
+  ]
 }
