@@ -9,7 +9,7 @@ a [telegram](http://t.me) bot for displaying mess menu. Bot's Url- [t.me/messmen
   python3 bot.py token  
   replace token by the token string that you get from bot father  
     
-  in server using a Environmental variable that stores token and calling it from Procfile  
+  on the server using a Environmental variable that stores token and calling it from Procfile  
   
 ### availible commands:  
   /whatscooking   (menu for current/next meal)  
