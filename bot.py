@@ -15,6 +15,7 @@ class GMT5(datetime.tzinfo):
 
 gmt5 = GMT5()
 pp = pprint.PrettyPrinter(indent=4)
+#present date/ loaded date
 prdt=None
 Today=None
 Tomorrow=None
@@ -25,24 +26,20 @@ dt_tom=None
 
 def on_chat_message(msg):
     print("\n")
+    pp.pprint(msg)
     content_type, chat_type, chat_id = telepot.glance(msg)
-    pp.pprint(msg["from"])
-    # print(telepot.glance(msg))
+    
     if(content_type!="text"):
             print(content_type)
             reply='Sorry, But, I only accept text :-(\nType or Click "/ " to see availible commands'
     else:
-        pp.pprint(msg["text"])
         global dt
         global dt_yes
         global dt_tom
         dt=datetime.datetime.fromtimestamp(msg["date"],tz=gmt5)
-        #dt=dt.astimezone()
-        ti=dt.time()    
-        #print(msg["date"])
+        ti=dt.time()
         print(ti)
         global prdt
-
         reply=dt.strftime("Today is %A, %d %b %Y\n\n")
         #date change
         if(prdt is None or prdt.date()!=dt.date()):
@@ -53,7 +50,7 @@ def on_chat_message(msg):
             yesterdayfile=dt_yes.strftime("./menu/%d-%m-%Y.json")
             tomorrowfile=dt_tom.strftime("./menu/%d-%m-%Y.json")
             print("in date change")
-
+            
             with open(todayfile) as json_data:
                 global Today 
                 Today = json.load(json_data)
@@ -114,7 +111,7 @@ def on_chat_message(msg):
         if(t=="/start"):
             reply='Hi! So let us see what is being cooked.\nType or Click  "/ "  to see availible commands'
 
-    bot.sendMessage(chat_id,reply)
+    #bot.sendMessage(chat_id,reply)
 
 
 TOKEN = sys.argv[1]  # get token from command-line
@@ -124,4 +121,4 @@ bot.message_loop({'chat': on_chat_message})
 print('Listening ...')
 
 while 1:
-    time.sleep(10)
+    time.sleep(1)
