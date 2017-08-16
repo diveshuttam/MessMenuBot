@@ -111,7 +111,7 @@ def on_chat_message(msg):
         if(t=="/start"):
             reply='Hi! So let us see what is being cooked.\nType or Click  "/ "  to see availible commands'
 
-    #bot.sendMessage(chat_id,reply)
+    bot.sendMessage(chat_id,reply)
 
 
 TOKEN = sys.argv[1]  # get token from command-line
