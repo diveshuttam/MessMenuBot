@@ -1,0 +1,31 @@
+{
+  "lunch": [
+    "Mirch ka salan",
+    "Yellow Dal",
+    "Veg Hyderabadi Briyani(spl)",
+    "P/B Chapati",
+    "Pumpkin Samabr",
+    "Mix pickle",
+    "Cucumber Salad",
+    "Black current I/C",
+    "Veg Fried Rice"
+  ],
+  "dinner": [
+    "Chole",
+    "Bhatura",
+    "Rasam",
+    "Steam Rice",
+    "Choped Onion ,Lemon ,",
+    "Mango Pickle",
+    "Veg fried Rice"
+  ],
+  "breakfast": [
+    "Cornflakes",
+    "Mix veg Poha",
+    "Tomato Ketchup",
+    "Choped Onion ,Lemon ,",
+    "Tea/Coffee",
+    "Slice Bread",
+    "Jam"
+  ]
+}

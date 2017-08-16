@@ -1,0 +1,28 @@
+{
+  "lunch": [
+    "Lauky Masala",
+    "Dal Makhani",
+    "P/B chapati",
+    "Steam Rice",
+    "Branjal sambar",
+    "Mix pickle",
+    "Cold chocolate Milk",
+    "Veg fried Rice"
+  ],
+  "dinner": [
+    "Pindi chana",
+    "Puri",
+    "Steam Rice",
+    "choped onion, Lemon.",
+    "Mix pickle",
+    "Veg Fried Rice"
+  ],
+  "breakfast": [
+    "Cornflakes",
+    "Pav Bhaji",
+    "choped onion, Lemon.",
+    "Tea/Coffee",
+    "Slice Bread",
+    "Jam"
+  ]
+}

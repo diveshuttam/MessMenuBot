@@ -1,0 +1,33 @@
+{
+  "lunch": [
+    "Mushroom Masala",
+    "Ajwayani Tikona Paratha",
+    "Veg Briyani",
+    "Hara Bhara Kebab",
+    "Mint Raita",
+    "Cucumber salad",
+    "Mango Pickle",
+    "Shikanji",
+    "Egg Curry & Egg Fried Rice Live counter"
+  ],
+  "dinner": [
+    "Aloo Kerala Ki subji",
+    "Rajma",
+    "Rasam",
+    "steam rice",
+    "P/B Chapati",
+    "Cucumber salad",
+    "Mango Pickle",
+    "Veg Fried Rice/ Live Egg Counter",
+    "Chicken Biryani"
+  ],
+  "breakfast": [
+    "Cornflakes",
+    "Masala Dosa",
+    "Sambhar / Chutney",
+    "Tea/Coffee",
+    "Slice Bread",
+    "Jam",
+    "Eggs to Order"
+  ]
+}
