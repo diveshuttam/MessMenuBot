@@ -31,7 +31,7 @@ def on_chat_message(msg):
     
     if(content_type!="text"):
             print(content_type)
-            reply='Sorry, But, I only accept text :-(\nType or Click "/ " to see availible commands'
+            reply='Sorry, But, I only accept text :-(\nType or Click "/ " to see available commands'
     else:
         global dt
         global dt_yes
@@ -98,7 +98,7 @@ def on_chat_message(msg):
             reply+="Tomorrow's menu:\n"
 
         else:
-            reply='Sorry :-( That'+"'s "+ 'Greek to me.\nType or Click "/ " to see availible commands'
+            reply='Sorry :-( That'+"'s "+ 'Greek to me.\nType or Click "/ " to see available commands'
 
         k=k.replace('{','')
         k=k.replace('}','')
@@ -109,7 +109,7 @@ def on_chat_message(msg):
         reply+=k
         
         if(t=="/start"):
-            reply='Hi! So let us see what is being cooked.\nType or Click  "/ "  to see availible commands'
+            reply='Hi! So let us see what is being cooked.\nType or Click  "/ "  to see available commands'
 
     bot.sendMessage(chat_id,reply)
 
