@@ -28,6 +28,7 @@ def on_chat_message(msg):
     print("\n")
     pp.pprint(msg)
     content_type, chat_type, chat_id = telepot.glance(msg)
+    today_error=tomorrow_error=yesterday_error=False
     
     if(content_type!="text"):
             print(content_type)
