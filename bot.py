@@ -114,7 +114,7 @@ def on_chat_message(msg):
             reply=dt_tom.strftime("Tomorrow is %A, %d %b %Y\n\n")
             k="\nBreakfast:"+json.dumps(Tomorrow["breakfast"],indent=0)+"\nLunch:"+json.dumps(Tomorrow["lunch"],indent=0)+"\nDinner:"+json.dumps(Tomorrow["dinner"],indent=0)
             reply+="Tomorrow's menu:\n"
-        elif(today_error or tomorrow_error or yesterday_error and t in valid_commands):
+        elif((today_error or tomorrow_error or yesterday_error) and t in valid_commands):
             print("in error")
             reply="Sorry! The mess menu is not availible yet :-(\nCheck with me tomorrow, I will try to fetch it by then! :P\n"
         else:
