@@ -31,6 +31,7 @@ def on_chat_message(msg):
     global today_error
     global tomorrow_error
     global yesterday_error
+    today_error=tomorrow_error=yesterday_error=False
     
     if(content_type!="text"):
             print(content_type)
