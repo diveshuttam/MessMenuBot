@@ -28,9 +28,9 @@ def on_chat_message(msg):
     print("\n")
     pp.pprint(msg)
     content_type, chat_type, chat_id = telepot.glance(msg)
-    global today_error=False
-    global tomorrow_error=False
-    global yesterday_error=False
+    global today_error
+    global tomorrow_error
+    global yesterday_error
     
     if(content_type!="text"):
             print(content_type)
@@ -60,21 +60,21 @@ def on_chat_message(msg):
                     Today = json.load(json_data)
                     json_data.close()
             except:
-                global today_error=True
+                today_error=True
             try:    
                 with open(yesterdayfile) as json_data:
                     global Yesterday 
                     Yesterday= json.load(json_data)
                     json_data.close()
             except:
-                global yesterday_error=True
+                yesterday_error=True
             try:
                 with open(tomorrowfile) as json_data:
                     global Tomorrow 
                     Tomorrow= json.load(json_data)
                     json_data.close()
             except:
-                global tomorrow_error=True
+                tomorrow_error=True
         prdt=dt
         k=''
         t=msg['text']
