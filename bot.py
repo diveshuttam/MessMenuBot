@@ -68,6 +68,7 @@ def on_chat_message(msg):
                     Yesterday= json.load(json_data)
                     json_data.close()
             except:
+                global yesterday_error
                 yesterday_error=True
             try:
                 with open(tomorrowfile) as json_data:
@@ -108,7 +109,7 @@ def on_chat_message(msg):
 
         elif(t=="/tomorrow" and not tomorrow_error):
             reply=dt_tom.strftime("Tomorrow is %A, %d %b %Y\n\n")
-            k=k="\nBreakfast:"+json.dumps(Tomorrow["breakfast"],indent=0)+"\nLunch:"+json.dumps(Tomorrow["lunch"],indent=0)+"\nDinner:"+json.dumps(Tomorrow["dinner"],indent=0)
+            k="\nBreakfast:"+json.dumps(Tomorrow["breakfast"],indent=0)+"\nLunch:"+json.dumps(Tomorrow["lunch"],indent=0)+"\nDinner:"+json.dumps(Tomorrow["dinner"],indent=0)
             reply+="Tomorrow's menu:\n"
         elif(today_error or tomorrow_error or yesterday_error):
             print("in error")
