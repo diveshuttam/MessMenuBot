@@ -28,6 +28,9 @@ tomorrow_error=None
 yesterday_error=None
 
 def on_chat_message(msg):
+    global yesterday_error
+    global tomorrow_error
+    global today_error
     print("\n")
     pp.pprint(msg)
     content_type, chat_type, chat_id = telepot.glance(msg)
@@ -78,7 +81,7 @@ def on_chat_message(msg):
         prdt=dt
         k=''
         t=msg['text']
-        print(yesterday_error)
+        print(tomorrow_error)
         
 
         if(t=="/whatscooking" and not today_error):
