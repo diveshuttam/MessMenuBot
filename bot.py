@@ -51,23 +51,33 @@ def on_chat_message(msg):
             tomorrowfile=dt_tom.strftime("./menu/%d-%m-%Y.json")
             print("in date change")
             
-            with open(todayfile) as json_data:
-                global Today 
-                Today = json.load(json_data)
-                json_data.close()
-            with open(yesterdayfile) as json_data:
-                global Yesterday 
-                Yesterday= json.load(json_data)
-                json_data.close()
-            with open(tomorrowfile) as json_data:
-                global Tomorrow 
-                Tomorrow= json.load(json_data)
-                json_data.close()
+            try:
+                with open(todayfile) as json_data:
+                    global Today 
+                    Today = json.load(json_data)
+                    json_data.close()
+            except:
+                today_error=True
+            try:    
+                with open(yesterdayfile) as json_data:
+                    global Yesterday 
+                    Yesterday= json.load(json_data)
+                    json_data.close()
+            except:
+                yesterday_error=True
+            try:
+                with open(tomorrowfile) as json_data:
+                    global Tomorrow 
+                    Tomorrow= json.load(json_data)
+                    json_data.close()
+            except:
+                tomorrow_error=True
         prdt=dt
         k=''
         t=msg['text']
+        
 
-        if(t=="/whatscooking"):
+        if(t=="/whatscooking" and not today_error):
             nextmeal=Today["breakfast"]
             reply1="Today's Breakfast:"
             if(ti.hour==9 and ti.minute>30 or ti.hour>9):
@@ -83,20 +93,21 @@ def on_chat_message(msg):
             k=json.dumps(nextmeal,indent=0);
             reply+=reply1
 
-        elif(t=="/today"):
+        elif(t=="/today" and not today_error):
             k="\nBreakfast:"+json.dumps(Today["breakfast"],indent=0)+"\nLunch:"+json.dumps(Today["lunch"],indent=0)+"\nDinner:"+json.dumps(Today["dinner"],indent=0)
             reply+="Today's menu-\n"
 
-        elif(t=="/yesterday"):
+        elif(t=="/yesterday" and not yesterday_error):
             reply=dt_yes.strftime("Yesterday was %A, %d %b %Y\n\n")
             k="\nBreakfast:"+json.dumps(Yesterday["breakfast"],indent=0)+"\nLunch:"+json.dumps(Yesterday["lunch"],indent=0)+"\nDinner:"+json.dumps(Yesterday["dinner"],indent=0)
             reply+="Yesterday's menu- \n"
 
-        elif(t=="/tomorrow"):
+        elif(t=="/tomorrow" and not tomorrow_error):
             reply=dt_tom.strftime("Tomorrow is %A, %d %b %Y\n\n")
             k=k="\nBreakfast:"+json.dumps(Tomorrow["breakfast"],indent=0)+"\nLunch:"+json.dumps(Tomorrow["lunch"],indent=0)+"\nDinner:"+json.dumps(Tomorrow["dinner"],indent=0)
             reply+="Tomorrow's menu:\n"
-
+        elif(today_error or tomorrow_error or yesterday_error):
+            reply="Sorry! The mess menu is not availible yet.\n:-(\nCheck with me tomorrow, I will try to fetch it by then! :P\n"
         else:
             reply='Sorry :-( That'+"'s "+ 'Greek to me.\nType or Click "/ " to see available commands'
 
