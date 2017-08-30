@@ -28,7 +28,7 @@ def on_chat_message(msg):
     print("\n")
     pp.pprint(msg)
     content_type, chat_type, chat_id = telepot.glance(msg)
-    today_error=tomorrow_error=yesterday_error=False
+    global today_error=global tomorrow_error=global yesterday_error=False
     
     if(content_type!="text"):
             print(content_type)
@@ -58,21 +58,21 @@ def on_chat_message(msg):
                     Today = json.load(json_data)
                     json_data.close()
             except:
-                today_error=True
+                global today_error=True
             try:    
                 with open(yesterdayfile) as json_data:
                     global Yesterday 
                     Yesterday= json.load(json_data)
                     json_data.close()
             except:
-                yesterday_error=True
+                global yesterday_error=True
             try:
                 with open(tomorrowfile) as json_data:
                     global Tomorrow 
                     Tomorrow= json.load(json_data)
                     json_data.close()
             except:
-                tomorrow_error=True
+                global tomorrow_error=True
         prdt=dt
         k=''
         t=msg['text']
@@ -108,6 +108,7 @@ def on_chat_message(msg):
             k=k="\nBreakfast:"+json.dumps(Tomorrow["breakfast"],indent=0)+"\nLunch:"+json.dumps(Tomorrow["lunch"],indent=0)+"\nDinner:"+json.dumps(Tomorrow["dinner"],indent=0)
             reply+="Tomorrow's menu:\n"
         elif(today_error or tomorrow_error or yesterday_error):
+            print("in error")
             reply="Sorry! The mess menu is not availible yet.\n:-(\nCheck with me tomorrow, I will try to fetch it by then! :P\n"
         else:
             reply='Sorry :-( That'+"'s "+ 'Greek to me.\nType or Click "/ " to see available commands'
