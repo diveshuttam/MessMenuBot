@@ -23,15 +23,14 @@ Yesterday=None
 dt=None
 dt_yes=None
 dt_tom=None
+today_error=None
+tomorrow_error=None
+yesterday_error=None
 
 def on_chat_message(msg):
     print("\n")
     pp.pprint(msg)
     content_type, chat_type, chat_id = telepot.glance(msg)
-    global today_error
-    global tomorrow_error
-    global yesterday_error
-    today_error=tomorrow_error=yesterday_error=False
     
     if(content_type!="text"):
             print(content_type)
@@ -68,7 +67,6 @@ def on_chat_message(msg):
                     Yesterday= json.load(json_data)
                     json_data.close()
             except:
-                global yesterday_error
                 yesterday_error=True
             try:
                 with open(tomorrowfile) as json_data:
@@ -80,6 +78,7 @@ def on_chat_message(msg):
         prdt=dt
         k=''
         t=msg['text']
+        print(yesterday_error)
         
 
         if(t=="/whatscooking" and not today_error):
