@@ -115,7 +115,7 @@ def on_chat_message(msg):
             reply+="Tomorrow's menu:\n"
         elif(today_error or tomorrow_error or yesterday_error):
             print("in error")
-            reply="Sorry! The mess menu is not availible yet.\n:-(\nCheck with me tomorrow, I will try to fetch it by then! :P\n"
+            reply="Sorry! The mess menu is not availible yet :-(\nCheck with me tomorrow, I will try to fetch it by then! :P\n"
         else:
             reply='Sorry :-( That'+"'s "+ 'Greek to me.\nType or Click "/ " to see available commands'
 
