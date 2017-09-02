@@ -1,0 +1,33 @@
+{
+  "lunch": [
+    "Malai Kofta",
+    "Mint paratha",
+    "Green pea pulao",
+    "Pineapple Raita",
+    "Fried Potato chips",
+    "Mix Pickle",
+    "Onion salad",
+    "Fruit custard",
+    "Egg Curry & Egg Fried Rice Live counter"
+  ],
+  "dinner": [
+    "Dahi Aloo",
+    "Moong Dal lahasuni",
+    "Tamrind Rasam",
+    "Lemon Rice",
+    "P/B Chapti",
+    "Cucumber Salad",
+    "Mix Pickle",
+    "Veg Fried Rice/ Live Egg Counter",
+    "chicken Briyani"
+  ],
+  "breakfast": [
+    "Cornflakes",
+    "Masala Dosa",
+    "Sambhar/Coconut chutney",
+    "Tea/Coffee",
+    "Slice Bread",
+    "Jam",
+    "Eggs to Order"
+  ]
+}
