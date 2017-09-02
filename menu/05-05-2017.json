@@ -1,0 +1,32 @@
+{
+  "breakfast": [
+    "Masala Idli",
+    "Sambar /Chutney",
+    "Tea/Coffee",
+    "Slice Bread",
+    "Jam",
+    "Eggs to Order"
+  ],
+  "dinner": [
+    "Khatta Metha Pumpkin",
+    "Dal Makhani",
+    "Tomato Rasam",
+    "Onion Rice",
+    "P/B Chapati",
+    "Cucumber,onion salad",
+    "Chilli Pickle",
+    "Veg Fried Rice/ Live Egg Counter",
+    "Chicken Masala"
+  ],
+  "lunch": [
+    "Paneer Lababdar",
+    "Tikona Ajwayani Paratha",
+    "Mix veg Rice (Normal rice)",
+    "Boondi Raita",
+    "Potato wedges",
+    "Onion Salad",
+    "Mix pickle",
+    "Cold Badam Milk",
+    "Egg Curry & Egg Fried Rice Live counter"
+  ]
+}

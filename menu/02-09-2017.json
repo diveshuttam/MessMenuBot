@@ -1,0 +1,32 @@
+{
+  "lunch": [
+    "Paneer Handi",
+    "Ajwayani Tikona paratha",
+    "Veg Briyani",
+    "Burani Raita",
+    "Potato corn kebab",
+    "Mix pickle",
+    "Seviya Kheer",
+    "Egg Curry & Egg Fried Rice Live counter"
+  ],
+  "dinner": [
+    "Baingon Bharta",
+    "yellow dal",
+    "Curd Rice",
+    "P/B Chapti",
+    "Bhel Puri",
+    "Mix pickle",
+    "Veg Fried Rice/ Live Egg Counter",
+    "Kadhai chicken"
+  ],
+  "breakfast": [
+    "Cornflakes",
+    "Aloo Tikki Sandwich",
+    "Tomato Ketchup",
+    "Tea/Coffee",
+    "Slice Bread",
+    "Jam",
+    "Daliya",
+    "Eggs to Order"
+  ]
+}
