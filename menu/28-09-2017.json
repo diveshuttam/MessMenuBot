@@ -1,0 +1,30 @@
+{
+  "breakfast": [
+    "Cornflakes",
+    "Medu wada",
+    "Sambhar / Coconut Chutney",
+    "Tea/Coffee",
+    "Slice Bread",
+    "Jam",
+    "Eggs to Order"
+  ],
+  "lunch": [
+    "Pakoda Kadhi",
+    "Aloo Jeera",
+    "P/B chapati",
+    "Steam Rice",
+    "Mango Pickle",
+    "Roasted Papad",
+    "Lassi",
+    "Egg Curry & Egg Fried Rice Live counter"
+  ],
+  "dinner": [
+    "Dal Panchratan",
+    "Veg fried Rice",
+    "Rasam",
+    "P/B Chapti",
+    "Cucumber, onion Salad",
+    "fruit custard",
+    "Egg Curry & Egg Fried Rice Live counter"
+  ]
+}
