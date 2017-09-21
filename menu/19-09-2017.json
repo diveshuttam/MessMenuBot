@@ -1,0 +1,30 @@
+{
+  "breakfast": [
+    "Cornflakes",
+    "Sev poha",
+    "Tomato ketchup",
+    "Choped onion ,Lemon, chilli",
+    "Tea/Coffee",
+    "Slice Bread",
+    "Jam"
+  ],
+  "lunch": [
+    "Dum Aloo punjabi",
+    "Dal Fry",
+    "Steam Rice",
+    "P/ B Chapati",
+    "Mix veg Sambhar",
+    "Cucumber, onion  Salad",
+    "Mix pickle",
+    "Cold Chocolate Milk",
+    "Veg  Fried  Rice  Live  counter"
+  ],
+  "dinner": [
+    "Chole",
+    "Poori",
+    "Steam Rice",
+    "Chopped Onion , Lemon",
+    "Mix Pickle",
+    "Veg  Fried  Rice  Live  counter"
+  ]
+}

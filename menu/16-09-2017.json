@@ -1,0 +1,34 @@
+{
+  "breakfast": [
+    "Cornflakes",
+    "Veg Coleslow S/W",
+    "Tomato ketchup",
+    "Tea/Coffee",
+    "Slice Bread",
+    "Jam",
+    "Daliya",
+    "Eggs to Order"
+  ],
+  "lunch": [
+    "Tomato onion chutney",
+    "Onion Coriandar Paratha",
+    "Plain Curd",
+    "Steam Rice",
+    "Lauky sambar",
+    "Butter",
+    "Lacha Onion",
+    "Mix Pickle",
+    "Shikanji",
+    "Egg Curry & Egg Fried Rice Live counter"
+  ],
+  "dinner": [
+    "Soyabeen Ka subji (jain Style )",
+    "Rajma Rasila",
+    "Dal Rasam",
+    "steam Rice",
+    "P/B Chapati",
+    "Cucumber, onion Salad",
+    "Jelabi - MB",
+    "Veg Fried Rice"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "breakfast": [
+    "Cornflakes",
+    "Masala Idli",
+    "Sambhar/Chutney",
+    "Tea/Coffee",
+    "Slice Bread",
+    "Jam",
+    "Eggs to Order"
+  ],
+  "lunch": [
+    "Matar Paneer",
+    "Onion Mint Paratha",
+    "Tawa pulao",
+    "Potato wedges",
+    "Cucumbar Raita",
+    "mix pickle",
+    "onion salad",
+    "Egg Curry & Egg Fried Rice Live counter"
+  ],
+  "dinner": [
+    "Aloo Beans Dry",
+    "Red Masoor lahasuni",
+    "Rasam",
+    "steam Rice",
+    "P/B Chapati",
+    "cucumber, onion salad",
+    "Lemon Pickle",
+    "Jelabi - SR",
+    "Egg Curry & Egg Fried Rice Live counter"
+  ]
+}

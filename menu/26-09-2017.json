@@ -1,0 +1,31 @@
+{
+  "breakfast": [
+    "Cornflakes",
+    "Pav",
+    "Bhaji",
+    "choped onion, Lemon",
+    "Tea/Coffee",
+    "Slice Bread",
+    "Jam"
+  ],
+  "lunch": [
+    "Mirch ka salan",
+    "Red Masoor dal",
+    "Hyderabadi Briyani (spl rice)",
+    "Mint Raita",
+    "P/B Chapati",
+    "Lauky sambar",
+    "Chilli Pickle",
+    "Veg  Fried Rice Live counter"
+  ],
+  "dinner": [
+    "Chole",
+    "Bhatura (Limited chapati)",
+    "Rasam",
+    "Steam Rice",
+    "Chopped Onion , Lemon",
+    "Mango Pickle",
+    "Pinapple Sheera",
+    "Veg fried Rice"
+  ]
+}
