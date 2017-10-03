@@ -1,0 +1,30 @@
+{
+  "breakfast": [
+    "Cornflakes",
+    "Masala Dosa",
+    "Sambhar / Coconut Chutney",
+    "Tea/Coffee",
+    "Slice Bread",
+    "Jam",
+    "Eggs to Order"
+  ],
+  "lunch": [
+    "Paneer Handi",
+    "Ajwayani Tikona Paratha",
+    "Steam Rice",
+    "Hara Bhara kabab",
+    "Boondi Raita",
+    "Pickle",
+    "onion salad",
+    "Egg Curry & Egg Fried Rice Live counter"
+  ],
+  "dinner": [
+    "Bhindi Do pyaza",
+    "Yellow Dal",
+    "Steam Rice",
+    "P/B Chapati",
+    "Cucumber, onion Salad",
+    "Mix Pickle",
+    "Egg Curry & Egg Fried Rice Live counter"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "breakfast": [
+    "Cornflakes",
+    "Batata vada",
+    "Tomato ketchup",
+    "Tea/Coffee",
+    "Slice Bread",
+    "Jam",
+    "Sabudana Khichdi",
+    "Eggs to Order"
+  ],
+  "lunch": [
+    "Rajasthani kadhi",
+    "Madarasi Aloo",
+    "Katiyawadi khichdi",
+    "P/B chapati",
+    "Pumpkin sambar",
+    "Chilli Pickle",
+    "Rice Papad",
+    "chocochip I/C",
+    "Egg Curry & Egg Fried Rice Live counter"
+  ],
+  "dinner": [
+    "Cabbage matar",
+    "Moong Dal chilka",
+    "Steam Rice",
+    "P/B Chapati",
+    "Bhel Puri",
+    "Mix pickle",
+    "Egg Curry & Egg Fried Rice Live counter"
+  ]
+}

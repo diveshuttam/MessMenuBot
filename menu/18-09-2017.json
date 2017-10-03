@@ -1,0 +1,31 @@
+{
+  "breakfast": [
+    "Cornflakes",
+    "Poori",
+    "Tea/Coffee",
+    "Slice Bread",
+    "Jam",
+    "Eggs to Order"
+  ],
+  "lunch": [
+    "Hariyali Kofta Curry",
+    "Arahar dal",
+    "Steam Rice",
+    "P/B chapati",
+    "Cucumber, Tomato salad",
+    "Pickle",
+    "Butter Scotch Ice cream",
+    "Egg Curry & Egg Fried Rice Live counter"
+  ],
+  "dinner": [
+    "Baingon Bharta",
+    "Dal Makhani",
+    "Roasted Garlic  Rasam",
+    "Curd Rice",
+    "P/B Chapati",
+    "Bhel puri",
+    "Lemon Pickle",
+    "jelabi - SV",
+    "Egg Curry & Egg Fried Rice Live counter"
+  ]
+}
