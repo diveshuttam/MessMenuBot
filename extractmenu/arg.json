@@ -4,6 +4,10 @@
 "lunch_start": 13,
 "lunch_end": 23,
 "dinner_start": 25,
+<<<<<<< HEAD
 "dinner_end": 35,
+=======
+"dinner_end": 33,
+>>>>>>> a71069e36cf4923bb1ad9795bfe65c85cd37a241
 "no_of_days": 15
 }

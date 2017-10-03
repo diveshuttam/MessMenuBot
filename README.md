@@ -1,6 +1,8 @@
 # MessMenuBot
 a [telegram](http://t.me) bot for displaying mess menu. Bot's Url- [t.me/messmenubot](https://t.me/messmenubot)
 
+### NOTE:
+Menu is prepared fortnightly -- on 1st and 15th of each month so it may take some time for the menu to be updated here and there may be a couple of days around these dates when bot doesn't have the menu availible. Though the menu is generated using scripts and is out as soon as the excel file is out.
 
 ### requirements:
   [telepot](http://telepot.readthedocs.io/en/latest/)  

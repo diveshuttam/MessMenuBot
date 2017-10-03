@@ -1,0 +1,31 @@
+{
+  "breakfast": [
+    "Cornflakes",
+    "Bread pakoda",
+    "Tomato ketchup",
+    "Tea/Coffee",
+    "Slice Bread",
+    "Jam",
+    "Daliya",
+    "Eggs to Order"
+  ],
+  "lunch": [
+    "Nizami Handi",
+    "Ghugni",
+    "Steam Rice",
+    "P/B Chapati",
+    "Mix veg Sambhar",
+    "Onion, cucumber Salad",
+    "Egg Curry & Egg Fried Rice Live counter"
+  ],
+  "dinner": [
+    "Aloo Matar desi style",
+    "Dal red masoor",
+    "Dal Rasam",
+    "Steam Rice",
+    "P/B Chapatti",
+    "Lemon Pickle",
+    "Badam Milk",
+    "Egg Curry & Egg Fried Rice Live counter"
+  ]
+}

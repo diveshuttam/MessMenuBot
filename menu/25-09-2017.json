@@ -1,0 +1,34 @@
+{
+  "breakfast": [
+    "Cornflakes",
+    "Bread roll",
+    "Tomato ketchup",
+    "Tea/Coffee",
+    "Slice Bread",
+    "Jam",
+    "Daliya",
+    "Eggs to Order"
+  ],
+  "lunch": [
+    "Amritsari chole",
+    "Dal trevani",
+    "Steam Rice",
+    "P/B chapati",
+    "Mix veg Sambar",
+    "Lemon Pickle",
+    "Cucumber, Tomato salad",
+    "Boondi Jal jeera",
+    "Egg Curry & Egg Fried Rice Live counter"
+  ],
+  "dinner": [
+    "Pumkin Ka subji",
+    "Black masoor dal",
+    "Rasam",
+    "Steam Rice",
+    "Palak Poori",
+    "Lemon Pickle",
+    "cucumber Salad",
+    "semiya kheer",
+    "Egg Curry & Egg Fried Rice Live counter"
+  ]
+}

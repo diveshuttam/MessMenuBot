@@ -1,0 +1,31 @@
+{
+  "breakfast": [
+    "Cornflakes",
+    "Masala Idli",
+    "Sambhar / Coconut Chutney",
+    "Tea/Coffee",
+    "Slice Bread",
+    "Jam",
+    "Eggs to Order"
+  ],
+  "lunch": [
+    "Paneer do pyaza",
+    "Aloo Pyaaz ka paratha",
+    "Veg Briyani",
+    "Burani Raita",
+    "Hara bhara kebab",
+    "tomato ketchup",
+    "Black current Ice cream",
+    "Egg Curry & Egg Fried Rice Live counter"
+  ],
+  "dinner": [
+    "Veg Korma south style",
+    "Dal makhani",
+    "Stem Rice",
+    "P/B chapati",
+    "Onion Salad",
+    "Mix Pickle",
+    "Jelabi - RPA+CVR",
+    "Egg Curry & Egg Fried Rice  -Live counter"
+  ]
+}
