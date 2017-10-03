@@ -1,0 +1,32 @@
+{
+  "breakfast": [
+    "Cornflakes",
+    "Veg coleslow S/W",
+    "Tomato ketchup",
+    "Tea/Coffee",
+    "Slice Bread",
+    "Jam",
+    "Daliya",
+    "Eggs to Order"
+  ],
+  "dinner": [
+    "Pumpkin ka subji",
+    "Dal Red Masoor",
+    "Rasam",
+    "steam rice",
+    "Palak Puri",
+    "Cucumber Salad",
+    "Mango Pickle",
+    "Veg Fried Rice/ Live Egg Counter"
+  ],
+  "lunch": [
+    "Paneer Do pyaza",
+    "Onion Mint paratha",
+    "veg Hyderabadi Briyani",
+    "Potato corn kebab",
+    "Boondi Raita",
+    "Mango Pickle",
+    "Butter Scotch I/C",
+    "Egg Curry & Egg Fried Rice Live counter"
+  ]
+}

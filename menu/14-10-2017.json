@@ -1,0 +1,33 @@
+{
+  "breakfast": [
+    "Cornflakes",
+    "vada pav",
+    "Green chutney",
+    "Green chilli",
+    "Tea/Coffee",
+    "Slice Bread",
+    "Jam",
+    "Eggs to Order"
+  ],
+  "dinner": [
+    "Aloo Kerala",
+    "Mix Dal",
+    "Steam rice",
+    "P/B chapati",
+    "Dal Rasam",
+    "Macroni Salad",
+    "chilli Pickle",
+    "Mohanthal",
+    "Veg Fried Rice/ Live Egg Counter"
+  ],
+  "lunch": [
+    "Aloo Black chana Tariwala",
+    "Ajwayani Tikona paratha",
+    "Steam Rice",
+    "Plain Curd",
+    "Onion sambar",
+    "Butter",
+    "Mix pickle",
+    "Egg Curry & Egg Fried Rice Live counter"
+  ]
+}

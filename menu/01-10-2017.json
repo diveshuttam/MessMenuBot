@@ -1,0 +1,31 @@
+{
+  "breakfast": [
+    "Cornflakes",
+    "Masala Dosa",
+    "Samber /coconut Chutney",
+    "Tea/Coffee",
+    "Slice Bread",
+    "Jam",
+    "Eggs to Order"
+  ],
+  "dinner": [
+    "Soyabeen ka subji (jain )",
+    "Lasooni Dal",
+    "Rasam",
+    "steam rice",
+    "P/B Chapati",
+    "Cucumber, onion salad",
+    "Mango Pickle",
+    "Jelabi - RB",
+    "Veg Fried Rice/ Live Egg Counter"
+  ],
+  "lunch": [
+    "Matar Paneer",
+    "Ajwayani Tikona paratha",
+    "Veg Pulao (Normal rice)",
+    "Potato wedges",
+    "Mix veg Raita",
+    "Mix pickle",
+    "Egg Curry & Egg Fried Rice Live counter"
+  ]
+}

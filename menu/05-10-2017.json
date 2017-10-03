@@ -1,0 +1,33 @@
+{
+  "breakfast": [
+    "Cornflakes",
+    "Aloo Tikki s/w",
+    "Tomato Ketchup",
+    "Tea/Coffee",
+    "Slice Bread",
+    "Jam",
+    "Daliya",
+    "Eggs to Order"
+  ],
+  "dinner": [
+    "Bhindi do pyaza",
+    "Dal kumawani",
+    "Rassam",
+    "Steam Rice",
+    "P/B chapati",
+    "Cucumber, onion Salad",
+    "Chilli Pickle",
+    "Pineapple Sheera",
+    "Veg Fried Rice/ Live Egg Counter"
+  ],
+  "lunch": [
+    "Rajasthani Kadhi",
+    "Aloo Jeera",
+    "P/B Chapati",
+    "Katiyawadi khichdi",
+    "Lauky Sambar",
+    "Mango pickle",
+    "Rice papad",
+    "Egg Curry & Egg Fried Rice Live counter"
+  ]
+}

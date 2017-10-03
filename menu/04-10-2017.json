@@ -1,0 +1,32 @@
+{
+  "breakfast": [
+    "Cornflakes",
+    "Masala Idli",
+    "Samber / Coconut Chutney",
+    "Tea/Coffee",
+    "Slice Bread",
+    "Jam",
+    "Eggs to Order"
+  ],
+  "dinner": [
+    "Palak Paneer",
+    "P/B Chapati",
+    "Steam Rice",
+    "Dal Rasam",
+    "Cucumber, Onion salad",
+    "Mango Pickle",
+    "Jelabi -SR",
+    "Veg Fried Rice/ Live Egg Counter"
+  ],
+  "lunch": [
+    "Arbi Dahi wala (Semi grevy)",
+    "Dal Arahar",
+    "Steam Rice",
+    "P/B chapati",
+    "Branjal Sambar",
+    "Mix pickle",
+    "Green salad",
+    "Boondi Jal jeera",
+    "Egg Curry & Egg Fried Rice Live counter"
+  ]
+}
