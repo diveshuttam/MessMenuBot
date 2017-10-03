@@ -1,0 +1,32 @@
+{
+  "breakfast": [
+    "Cornflakes",
+    "Sev Poha",
+    "Tomato ketchup",
+    "Chopped onion, tomato,Lemon",
+    "Tea/Coffee",
+    "Slice Bread",
+    "Jam"
+  ],
+  "dinner": [
+    "Amritsari chole",
+    "Bhatura + Limited chapati",
+    "Steam Rice",
+    "Dal Rasam",
+    "Choped onion, Lemon",
+    "Mix pickle",
+    "Jelabi - Mall",
+    "Veg Fried Rice"
+  ],
+  "lunch": [
+    "Bhindi Achari",
+    "Dal Makhani",
+    "P/B chapati",
+    "Steam Rice",
+    "Mix veg Sambar",
+    "Mix pickle",
+    "Cucumber, onion Salad",
+    "Chaach",
+    "Veg fried Rice"
+  ]
+}

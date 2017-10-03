@@ -1,0 +1,34 @@
+{
+  "breakfast": [
+    "Cornflakes",
+    "Aloo Pyaz ka paratha",
+    "Plain curd",
+    "Tea/Coffee",
+    "Slice Bread",
+    "Jam",
+    "Mix pickle",
+    "Eggs to Order"
+  ],
+  "dinner": [
+    "Baingon Bharta",
+    "Black masoor dal",
+    "Rasam",
+    "Curd Rice",
+    "Steam rice",
+    "Bhel Puri",
+    "Mix Pickle",
+    "Veg Fried Rice/ Live Egg Counter"
+  ],
+  "lunch": [
+    "Aloo capsicum",
+    "Lahasuni Red masoor",
+    "Steam Rice",
+    "P/B Chapati",
+    "Mix veg Sambhar",
+    "Mix Pickle",
+    "cucumber, tomato salad",
+    "Shikanji",
+    "Cream& cookies I/C",
+    "Egg Curry & Egg Fried Rice Live counter"
+  ]
+}

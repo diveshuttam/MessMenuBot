@@ -1,0 +1,32 @@
+{
+  "breakfast": [
+    "Cornflakes",
+    "Masala Dosa",
+    "Sambar /Chutney",
+    "Tea/Coffee",
+    "Slice Bread",
+    "Jam",
+    "Eggs to Order"
+  ],
+  "dinner": [
+    "Pakora ka subji",
+    "Moong Dal",
+    "Rasam",
+    "Steam Rice",
+    "P/B Chapati",
+    "Cucumber Onion Salad",
+    "Lemon Pickle",
+    "Jelabi -SV",
+    "Veg Fried Rice/ Live Egg Counter"
+  ],
+  "lunch": [
+    "Mushroom Do pyaza",
+    "Ajwani Tikona Paratha",
+    "Corn pulao",
+    "French fry",
+    "Burani Raita",
+    "Mix  pickle",
+    "Lacha Onion",
+    "Veg Fried Rice/ Live Egg Counter"
+  ]
+}

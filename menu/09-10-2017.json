@@ -1,0 +1,34 @@
+{
+  "breakfast": [
+    "Cornflakes",
+    "Semiya Upma",
+    "Tea/Coffee",
+    "Slice Bread",
+    "Jam",
+    "Daliya",
+    "Eggs to Order"
+  ],
+  "dinner": [
+    "Katiyawadi khichdi",
+    "Desi Style Aloo matar",
+    "Plain Curd",
+    "P/B chapati",
+    "Rasam",
+    "Steam rice",
+    "Chilli pickle",
+    "Cucumber,tomato salad",
+    "jelabi - RPA+CVR",
+    "Veg Fried Rice/ Live Egg Counter"
+  ],
+  "lunch": [
+    "Dum Aloo Punjabi",
+    "Urid chana dal",
+    "P/B chapati",
+    "Steam Rice",
+    "Onion sambar",
+    "Mix pickle",
+    "Cucumber, onion salad",
+    "chocolate Milk",
+    "Egg Curry & Egg Fried Rice Live counter"
+  ]
+}

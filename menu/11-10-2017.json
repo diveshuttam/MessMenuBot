@@ -1,0 +1,32 @@
+{
+  "breakfast": [
+    "Cornflakes",
+    "Mix veg Poha with sev",
+    "Choped onion,Tomato,Lemon",
+    "Tea/Coffee",
+    "Slice Bread",
+    "Jam",
+    "Eggs to Order"
+  ],
+  "dinner": [
+    "Soya Palak",
+    "Dal Makhani",
+    "Rasam",
+    "Steam Rice",
+    "P/B Chapati",
+    "Green Salad",
+    "Mango Pickle",
+    "Hot Badam Milk",
+    "Veg Fried Rice/ Live Egg Counter"
+  ],
+  "lunch": [
+    "Stuffed Tomato",
+    "P/B chapati",
+    "Spring Onion Rice",
+    "Bringal  Sambhar",
+    "Mix veg Raita",
+    "Mix pickle",
+    "Cucumber onion salad",
+    "Egg Curry & Egg Fried Rice Live counter"
+  ]
+}

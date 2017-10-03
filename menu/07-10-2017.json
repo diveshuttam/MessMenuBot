@@ -1,0 +1,33 @@
+{
+  "breakfast": [
+    "Cornflakes",
+    "Punugullu",
+    "Tomato chutney",
+    "Tea/Coffee",
+    "Slice Bread",
+    "Jam",
+    "Daliya",
+    "Eggs to Order"
+  ],
+  "dinner": [
+    "Sev Tomato",
+    "Traveni dal",
+    "papper Rasam",
+    "Tamrind rice",
+    "P/B Chapati",
+    "Mix Pickle",
+    "Chocolate barfi",
+    "Egg Curry & Egg Fried Rice Live counter"
+  ],
+  "lunch": [
+    "Black chana Tariwala",
+    "Naan",
+    "Plain curd",
+    "Steam Rice",
+    "Punmpkin Sambar",
+    "Butter",
+    "Lemon pickle",
+    "Lacha Onion",
+    "Egg Curry & Egg Fried Rice Live counter"
+  ]
+}

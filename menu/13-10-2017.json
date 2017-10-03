@@ -1,0 +1,32 @@
+{
+  "breakfast": [
+    "Cornflakes",
+    "Medu vada",
+    "Sambar /Coconut Chutney",
+    "Tea/Coffee",
+    "Slice Bread",
+    "Jam",
+    "Eggs to Order"
+  ],
+  "dinner": [
+    "Chilli Potato semi grevy",
+    "Black masoor Dal",
+    "Veg fried Rice",
+    "P/B chapati",
+    "Dal Rasam",
+    "Bhel Puri",
+    "Mix pickle",
+    "Veg Fried Rice/ Live Egg Counter"
+  ],
+  "lunch": [
+    "Amritsari chole",
+    "Yellow Dal",
+    "Steam Rice",
+    "P/B Chapatti",
+    "Lauky sambar",
+    "Lemon Pickle",
+    "Cucumber, Onion salad,",
+    "Lassi",
+    "Egg Curry & Egg Fried Rice Live counter"
+  ]
+}

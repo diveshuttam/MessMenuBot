@@ -1,9 +1,9 @@
 {
 "breakfast_start":3,
-"breakfast_end": 10,
-"lunch_start": 12,
-"lunch_end": 22,
-"dinner_start": 24,
-"dinner_end": 33,
+"breakfast_end": 11,
+"lunch_start": 13,
+"lunch_end": 23,
+"dinner_start": 25,
+"dinner_end": 35,
 "no_of_days": 15
 }

@@ -1,0 +1,33 @@
+{
+  "breakfast": [
+    "Cornflakes",
+    "Aloo Tikki S/W",
+    "Tomato ketchup",
+    "Tea/Coffee",
+    "Slice Bread",
+    "Jam",
+    "Daliya"
+  ],
+  "dinner": [
+    "chole",
+    "Puri",
+    "Rasam",
+    "Steam Rice",
+    "Choped Onion ,Lemon ,",
+    "Mango Pickle",
+    "fruit custard",
+    "Veg fried Rice"
+  ],
+  "lunch": [
+    "Mirch ka salan",
+    "Dal Black masoor",
+    "Veg Hyderabadi Briyani",
+    "P/B Chapati",
+    "Pineapple Raita",
+    "Lauky sambar",
+    "Mix pickle",
+    "Lacha onion",
+    "Rooafza",
+    "Veg fried Rice"
+  ]
+}
