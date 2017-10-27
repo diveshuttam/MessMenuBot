@@ -1,0 +1,30 @@
+{
+  "dinner": [
+    "Pindi Chole",
+    "Puri (Limited chapati )",
+    "Steam Rice",
+    "Dal Rasam",
+    "Choped onion, Lemon",
+    "Mix pickle",
+    "Hot chocolate milk",
+    "Veg Fried Rice"
+  ],
+  "lunch": [
+    "Arbi Dhai wala (Semi Gravy)",
+    "Dal Makhani",
+    "P/B chapati",
+    "Onion Chilli Rice",
+    "Mix pickle",
+    "Green salad",
+    "Veg fried Rice"
+  ],
+  "breakfast": [
+    "Cornflakes",
+    "Sev Poha",
+    "Tomato ketchup",
+    "Chopped onion, tomato,Lemon",
+    "Tea/Coffee",
+    "Slice Bread",
+    "Jam"
+  ]
+}

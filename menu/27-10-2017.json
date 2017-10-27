@@ -1,0 +1,32 @@
+{
+  "dinner": [
+    "Tomato sev",
+    "Dal fry",
+    "Tamrind Rice",
+    "Rasam",
+    "P/B Chapati",
+    "Cucumber, onion salad",
+    "Mango Pickle",
+    "Shrikhand",
+    "Veg Fried Rice/ Live Egg Counter"
+  ],
+  "lunch": [
+    "Bhendi Achari",
+    "Dal Makhani",
+    "Onion Rice",
+    "P/B Chapati",
+    "Mix veg Sambar",
+    "Mix Pickle",
+    "Green salad",
+    "Egg Curry & Egg Fried Rice Live counter"
+  ],
+  "breakfast": [
+    "Cornflakes",
+    "Masala Idli",
+    "Sambar /Chutney",
+    "Tea/Coffee",
+    "Slice Bread",
+    "Jam",
+    "Eggs to Order"
+  ]
+}
