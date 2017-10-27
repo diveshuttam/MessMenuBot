@@ -1,0 +1,33 @@
+{
+  "dinner": [
+    "Aloo Matar Rasadar",
+    "Masala Khichdi",
+    "Plain Curd",
+    "Steam Rice",
+    "Rasam",
+    "Green Salad",
+    "Mango Pickle",
+    "Jelabi- VKB",
+    "Veg fried Rice"
+  ],
+  "lunch": [
+    "Kadhai Chole",
+    "Lahasuni Dal",
+    "P/B chapati",
+    "Steam rice",
+    "Mix veg Raita",
+    "Lauky sambar",
+    "Cucumber, onion salad",
+    "Chilli Pickle",
+    "Truffle Pudding",
+    "Veg fried Rice"
+  ],
+  "breakfast": [
+    "Cornflakes",
+    "Paneer Paratha",
+    "Plain Curd",
+    "Tea/Coffee",
+    "Slice Bread",
+    "Jam"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "dinner": [
+    "Bhindi Do pyaza",
+    "Dal Kumawani",
+    "P/B chapati",
+    "Dal Rasam",
+    "Steam rice",
+    "Cucumber, onion salad",
+    "Mix Pickle",
+    "Veg Fried Rice/ Live Egg Counter"
+  ],
+  "lunch": [
+    "Gatta Curry",
+    "Urid chana Dal",
+    "P/B chapati",
+    "Steam Rice",
+    "Lauky sambar",
+    "Mix pickle",
+    "Green Salad",
+    "Lassi",
+    "Egg Curry & Egg Fried Rice Live counter"
+  ],
+  "breakfast": [
+    "Cornflakes",
+    "Bread Pakoda (Less oily)",
+    "Tomato ketchup",
+    "Tea/Coffee",
+    "Slice Bread",
+    "Jam",
+    "Daliya",
+    "Eggs to Order"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "dinner": [
+    "Soyabeen Masala",
+    "Dal Amritsari",
+    "Rasam",
+    "Steam Rice",
+    "P/B Chapati",
+    "Cucumber Onion Salad",
+    "Lemon Pickle",
+    "Tomato soup",
+    "Jelabi-SR",
+    "Veg Fried Rice/ Live Egg Counter"
+  ],
+  "lunch": [
+    "Matar Mushroom",
+    "Onion Mint Paratha",
+    "Veg Hyderabadi Briyani",
+    "Boondi Raita",
+    "French fries",
+    "Lacha Onion",
+    "Mix pickle",
+    "Veg Fried Rice/ Live Egg Counter"
+  ],
+  "breakfast": [
+    "Cornflakes",
+    "Masala Dosa",
+    "Sambar /Chutney",
+    "Tea/Coffee",
+    "Slice Bread",
+    "Jam",
+    "Eggs to Order"
+  ]
+}

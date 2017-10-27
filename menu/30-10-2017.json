@@ -1,0 +1,33 @@
+{
+  "dinner": [
+    "Lauky chana subji",
+    "Black Masoor dal",
+    "P/B chapati",
+    "Pepper Rasam",
+    "Spring Onion Rice",
+    "Cucumber, onion Salad",
+    "Mix pickle",
+    "Pineapple sheera",
+    "Veg Fried Rice/ Live Egg Counter"
+  ],
+  "lunch": [
+    "Pakoda ka subji",
+    "Dal makhanai",
+    "P/B chapati",
+    "Steam rice",
+    "Mix veg Sambar",
+    "Cucumber, onion salad",
+    "Chilli Pickle",
+    "Veg Fried Rice/ Live Egg Counter"
+  ],
+  "breakfast": [
+    "Cornflakes",
+    "Punugullu",
+    "Tomato chutney",
+    "Tea/Coffee",
+    "Slice Bread",
+    "Jam",
+    "Daliya",
+    "Eggs to Order"
+  ]
+}

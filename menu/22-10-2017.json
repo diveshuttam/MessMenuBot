@@ -1,0 +1,32 @@
+{
+  "dinner": [
+    "Palak Bhurji",
+    "Rajma",
+    "Rasam",
+    "P/B Chapti",
+    "Cucumber, Onion Salad",
+    "Lemon Pickle",
+    "Carrot Rice",
+    "Balushai",
+    "Egg Curry & Egg Fried Rice Live counter"
+  ],
+  "lunch": [
+    "Matar Paneer",
+    "Ajwani Tikona Paratha",
+    "Veg pulao (Normal Rice)",
+    "Stuffed chilly Pakoda",
+    "Boondi Raita",
+    "Mix  pickle",
+    "Onion Salad",
+    "Egg Curry & Egg Fried Rice Live counter"
+  ],
+  "breakfast": [
+    "Cornflakes",
+    "Masala Dosa",
+    "Sambhar / Chutney",
+    "Tea/Coffee",
+    "Slice Bread",
+    "Jam",
+    "Eggs to Order"
+  ]
+}

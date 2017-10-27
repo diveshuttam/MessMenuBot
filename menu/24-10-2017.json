@@ -1,0 +1,31 @@
+{
+  "dinner": [
+    "Chilli Potato semi Grevy",
+    "Lahasuni Dal",
+    "Rasam",
+    "Steam Rice",
+    "Green Salad",
+    "Mango Pickle",
+    "Jelabi -RPA+CVR",
+    "Veg fried Rice"
+  ],
+  "lunch": [
+    "Dahi Aloo",
+    "Dal Makhani",
+    "Spring Onion rice",
+    "P/B Chapati",
+    "Mix veg sambar",
+    "Mix pickle",
+    "Cucumber, onion Salad",
+    "Gulab Jamun with I/C",
+    "Veg fried Rice"
+  ],
+  "breakfast": [
+    "Cornflakes",
+    "Vada pav",
+    "Green chilli",
+    "Tea / coffee",
+    "Slice Bread",
+    "Jam"
+  ]
+}
