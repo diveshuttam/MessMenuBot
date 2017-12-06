@@ -1,8 +1,8 @@
 # MessMenuBot
 a [telegram](http://t.me) bot for displaying mess menu. Bot's Url- [t.me/messmenubot](https://t.me/messmenubot)  
   
-**Sorry! The bot is no longer being maintained due to less usage.  
-However if you are interested in maintaining the bot, write to : diveshuttamchanani@gmail.com**  
+**The bot is no longer being maintained due to less usage.  
+However if you are interested in maintaining the bot, write to : diveshuttamchandani@gmail.com**  
 
 ### NOTE:
 Menu is prepared fortnightly -- on 1st and 15th of each month so it may take some time for the menu to be updated here and there may be a couple of days around these dates when bot doesn't have the menu availible. Though the menu is generated using scripts and is out as soon as the excel file is out.
