@@ -116,9 +116,9 @@ def on_chat_message(msg):
             reply+="Tomorrow's menu:\n"
         elif((today_error or tomorrow_error or yesterday_error) and t in valid_commands):
             print("in error")
-            reply="Sorry! The mess menu is not availible yet :-(\nCheck with me tomorrow, I will try to fetch it by then! :P\n"
+            reply="Sorry! the bot is no longer being maintained due to less usage :-(\nIf you are interested in maintaining the bot write to :\ndiveshuttamchandani@gmail.com"
         else:
-            reply='Sorry :-( That'+"'s "+ 'Greek to me.\nType or Click "/ " to see available commands'
+            reply='Sorry! the bot is no longer being maintained due to less usage :-(\nIf you are interested in maintaining the bot write to :\ndiveshuttamchandani@gmail.com'
 
         k=k.replace('{','')
         k=k.replace('}','')
