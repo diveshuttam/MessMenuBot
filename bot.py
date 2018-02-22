@@ -5,7 +5,7 @@ import telepot
 import pprint
 import json
 
-class GMT5(datetime.tzinfo): 
+class GMT5(datetime.tzinfo):
     def utcoffset(self,dt):
         return datetime.timedelta(hours=5,minutes=30)
     def tzname(self,dt):
@@ -35,7 +35,7 @@ def on_chat_message(msg):
     print("\n")
     pp.pprint(msg)
     content_type, chat_type, chat_id = telepot.glance(msg)
-    
+
     if(content_type!="text"):
             print(content_type)
             reply='Sorry, But, I only accept text :-(\nType or Click "/ " to see available commands'
@@ -57,24 +57,24 @@ def on_chat_message(msg):
             yesterdayfile=dt_yes.strftime("./menu/%d-%m-%Y.json")
             tomorrowfile=dt_tom.strftime("./menu/%d-%m-%Y.json")
             print("in date change")
-            
+
             try:
                 with open(todayfile) as json_data:
-                    global Today 
+                    global Today
                     Today = json.load(json_data)
                     json_data.close()
             except:
                 today_error=True
-            try:    
+            try:
                 with open(yesterdayfile) as json_data:
-                    global Yesterday 
+                    global Yesterday
                     Yesterday= json.load(json_data)
                     json_data.close()
             except:
                 yesterday_error=True
             try:
                 with open(tomorrowfile) as json_data:
-                    global Tomorrow 
+                    global Tomorrow
                     Tomorrow= json.load(json_data)
                     json_data.close()
             except:
@@ -83,7 +83,7 @@ def on_chat_message(msg):
         k=''
         t=msg['text']
         print(tomorrow_error)
-        
+
 
         if(t=="/whatscooking" and not today_error):
             nextmeal=Today["breakfast"]
@@ -127,7 +127,7 @@ def on_chat_message(msg):
         k=k.replace(']','')
         k=k.replace(',','\t')
         reply+=k
-        
+
         if(t=="/start"):
             reply='Hi! So let us see what is being cooked.\nType or Click  "/ "  to see available commands'
 
@@ -141,4 +141,4 @@ bot.message_loop({'chat': on_chat_message})
 print('Listening ...')
 
 while 1:
-time.sleep(1)
+    time.sleep(1)
