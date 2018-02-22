@@ -116,9 +116,9 @@ def on_chat_message(msg):
             reply+="Tomorrow's menu:\n"
         elif((today_error or tomorrow_error or yesterday_error) and t in valid_commands):
             print("in error")
-            reply="Sorry! the bot is no longer being maintained due to less usage :-(\nIf you are interested in maintaining the bot write to :\ndiveshuttamchandani@gmail.com"
+            reply="Sorry! The mess menu is not availible yet :-(\nCheck with me tomorrow, I will try to fetch it by then! :P\n"
         else:
-            reply='Sorry! the bot is no longer being maintained due to less usage :-(\nIf you are interested in maintaining the bot write to :\ndiveshuttamchandani@gmail.com'
+            reply='Sorry :-( That'+"'s "+ 'Greek to me.\nType or Click "/ " to see available commands'
 
         k=k.replace('{','')
         k=k.replace('}','')
@@ -141,4 +141,4 @@ bot.message_loop({'chat': on_chat_message})
 print('Listening ...')
 
 while 1:
-    time.sleep(1)
+time.sleep(1)

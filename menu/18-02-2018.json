@@ -1,0 +1,31 @@
+{
+  "lunch": [
+    "Dum Aloo",
+    "Ghugni",
+    "P/B Chapati",
+    "Tamrind Rice",
+    "Mix veg Samabar",
+    "Cucumber+chooped onion,Lemon",
+    "Mix Pickle",
+    "Egg Curry & Egg Fried Rice Live counter"
+  ],
+  "dinner": [
+    "Palak Paneer",
+    "P/B Chapati",
+    "Onion Rice",
+    "Tomato Rasam",
+    "Cucumber, onion Salad",
+    "Mix Pickle",
+    "Veg Fried Rice/ Live Egg Counter"
+  ],
+  "breakfast": [
+    "Cornflakes",
+    "Veg cutlets",
+    "Tomato ketchup",
+    "Tea/Coffee",
+    "Slice Bread",
+    "Jam",
+    "Daliya",
+    "Eggs to Order"
+  ]
+}
