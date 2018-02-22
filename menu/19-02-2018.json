@@ -1,0 +1,33 @@
+{
+  "lunch": [
+    "Paneer Butter Masala",
+    "Stuffed Naan (Potato,onion,chilli)",
+    "Veg Briyani",
+    "Boondi Raita",
+    "Hara bhara Kebab",
+    "Tomato ketchup",
+    "Mix pickle",
+    "Chocolate chip I/C",
+    "Egg Curry & Egg Fried Rice Live counter"
+  ],
+  "dinner": [
+    "Moong Mogar",
+    "Rajama",
+    "Steam Rice",
+    "Dal Rasam",
+    "P/B Chapati",
+    "Cucumber, onion salad",
+    "Mix pickle",
+    "Veg Fried Rice/ Live Egg Counter"
+  ],
+  "breakfast": [
+    "Cornflakes",
+    "Aloo Tikki S/W",
+    "Tomato ketchup",
+    "Tea/Coffee",
+    "Slice Bread",
+    "Jam",
+    "Daliya",
+    "Eggs to Order"
+  ]
+}
